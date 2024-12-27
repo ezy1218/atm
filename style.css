@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-top: auto;
+    margin-left: auto;
+    animation-name: test;
+    animation-duration: 5s;
+    position: absolute;
+}
+@keyframes test{
+    0%{
+        background-color: red;
+    }
+    10%{
+        background-color: bisque;
+        left: 500px;
+    }
+    15%{
+        background-color: burlywood;
+        right: 300px;
+        
+    }
+    20%{
+        background-color: black;
+    }
+    25%{
+        background-color: yellow;
+        transform: rotate(25deg);
+    }
+    30%{
+        background-color: brown;
+    }
+    35%{
+        background-color: aqua;
+        border-radius: 100px;
+    }
+    40%{
+        background-color: fuchsia;
+    }
+    45%{
+        background-color: lawngreen;
+        top: 300px;
+    }
+    50%{
+        background-color: darkcyan;
+    
+    }
+    55%{
+        background-color: darkorange;
+    }
+    60%{
+        background-color: yellowgreen;
+
+    }
+    65%{
+        background-color: darkgrey;
+    }
+    70%{
+        background-color: floralwhite;
+    }
+    75%{
+        background-color: thistle;
+    }
+    80%{
+        background-color: cyan;
+    }
+    85%{
+        background-color: cadetblue;
+    }
+    90%{
+        background-color: darkviolet;
+    }
+    95%{
+        background-color: gold;
+    }
+    100%{
+        background-color: indianred;
+    }
+}
